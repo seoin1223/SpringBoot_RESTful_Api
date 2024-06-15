@@ -1,13 +1,20 @@
 # SpringBoot_RESTful_Api
 
 ## 목차
-- Section 0: Web Service & Web Application
-- Section 1: Spring Boot 로 개발하는 RESTful API
-- Section 2: User SErvice API 추가
-- Section 3: RESTful Service 기능 확장
-- Section 4: Spring Boot API 사용
-- Section 5: JAP
-- Section 6: RESTful 설계
+- Web Service & Web Application
+- Spring Boot 로 개발하는 RESTful API
+   - Spring Boot 개요
+   - REST API 설계
+   - Spring Boot Project 생성 및 실행
+   - HelloWorld Controller 추가
+   - HelloWOrld Bean 추가
+   - DispatcherServlet, 프로젝트 동작 이해
+   - Path Variable    
+- User SErvice API 추가
+- RESTful Service 기능 확장
+- Spring Boot API 사용
+- JAP
+- RESTful 설계
 
 <br><br><br><br><br>
 
