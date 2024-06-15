@@ -46,5 +46,13 @@
 
 ## 1. Spring Boot 로 개발하는 RESTful API
 
-[프로젝트 생성](https://github.com/seoin1223/SpringBoot_RESTful_Api/tree/seoin/my-restful-service)
-[controller](https://github.com/seoin1223/SpringBoot_RESTful_Api/tree/seoin/my-restful-service/src/main/java/kr/seoin/springboot/myrestfulservice/controller)
+- [프로젝트 생성](https://github.com/seoin1223/SpringBoot_RESTful_Api/tree/seoin/my-restful-service)
+- [controller](https://github.com/seoin1223/SpringBoot_RESTful_Api/tree/seoin/my-restful-service/src/main/java/kr/seoin/springboot/myrestfulservice/controller)
+
+  
+1. SPring Boot Configuration
+ - 동작 원리
+ - 설정 파일
+    - application.yml : 설정이름 = 값
+    - application.properties : 설정이름:값
+ - Spring Boot AUto Configuration
