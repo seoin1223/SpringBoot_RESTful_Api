@@ -46,4 +46,4 @@
 
 ## 1. Spring Boot 로 개발하는 RESTful API
 
-[프로젝트 생성]([../](https://github.com/seoin1223/SpringBoot_RESTful_Api/tree/seoin/my-restful-service))
+[프로젝트 생성](https://github.com/seoin1223/SpringBoot_RESTful_Api/tree/seoin/my-restful-service)
