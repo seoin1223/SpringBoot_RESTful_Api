@@ -32,4 +32,4 @@
 8. OpenAPI
    - https://www.openapis.org/
    - https://spec.openapis.org/oas/v3.1.0
-   - https://www.openapis.org/blog/2021/02/16/migrating-form-openapi-3-0-to-3-1-0
+   - https://www.openapis.org/blog/2021/02/16/migrating-from-openapi-3-0-to-3-1-0
