@@ -51,8 +51,17 @@
 
   
 1. SPring Boot Configuration
- - 동작 원리
- - 설정 파일
-    - application.yml : 설정이름 = 값
-    - application.properties : 설정이름:값
- - Spring Boot AUto Configuration
+    - 동작 원리
+    - 설정 파일
+       - application.yml : 설정이름:값
+       - application.properties : 설정이름 = 값
+    - Spring Boot AUto Configuration
+  
+2. Dispatcher Servlet
+   - 클라이언트의 모든 요청을 한곳으로 받아서 처리
+   - 요청에 맞는 Handler로 요청을 전달
+   - Handler의 실행 결과를 Http Response 형태로 만들어서 반환
+
+3. RestController
+   - @Controller + @ResponseBody
+   - view를 갖지 않는 REST Data(JSON/XML)를 반환
