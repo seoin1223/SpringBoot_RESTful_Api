@@ -25,4 +25,8 @@
    - resource의 Representation에 의한 상태 전달
    - HTTP Method를 통해 Resource를 처리하기 위한 아키텍처
 5. RESTful : REST API를 제공하는 웹 서비스
-6. 
+6. Resource
+    - URL : 인터넷 자원을 나타내는 유일한 주소
+    - XML, HTML, JSON
+7.EndPoing : API를 통해 서버가 제공하는 리소스에 접근하기 위해서 제공되는 주소
+8. OpenAPI : https://www.openapis.org/   
