@@ -10,9 +10,9 @@ public class MyRestfulServiceApplication {
 	public static void main(String[] args) {
 		ApplicationContext ac = SpringApplication.run(MyRestfulServiceApplication.class, args);
 
-		for(String beanName : ac.getBeanDefinitionNames()){
-			System.out.println(beanName);
-		}
+//		for(String beanName : ac.getBeanDefinitionNames()){
+//			System.out.println(beanName);
+//		}
 	}
 
 }
