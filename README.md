@@ -29,4 +29,7 @@
     - URL : 인터넷 자원을 나타내는 유일한 주소
     - XML, HTML, JSON
 7.EndPoing : API를 통해 서버가 제공하는 리소스에 접근하기 위해서 제공되는 주소
-8. OpenAPI : https://www.openapis.org/   
+8. OpenAPI
+   - https://www.openapis.org/
+   - https://spec.openapis.org/oas/v3.1.0
+   - https://www.openapis.org/blog/2021/02/16/migrating-form-openapi-3-0-to-3-1-0
