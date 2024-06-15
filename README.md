@@ -9,7 +9,7 @@
 6. JAP
 7. RESTful 설계
 
-<br><br><br><br><br>
+<br><br><br>
 
 
 ## 0. Web Service & Web Application
@@ -46,4 +46,27 @@
 
 ## 1. Spring Boot 로 개발하는 RESTful API
 
-[프로젝트 생성](https://github.com/seoin1223/SpringBoot_RESTful_Api/tree/seoin/my-restful-service)
+- [프로젝트 생성](https://github.com/seoin1223/SpringBoot_RESTful_Api/tree/seoin/my-restful-service)
+- [controller](https://github.com/seoin1223/SpringBoot_RESTful_Api/tree/seoin/my-restful-service/src/main/java/kr/seoin/springboot/myrestfulservice/controller)
+
+  
+1. SPring Boot Configuration
+    - 동작 원리
+    - 설정 파일
+       - application.yml : 설정이름:값
+       - application.properties : 설정이름 = 값
+    - Spring Boot AUto Configuration
+  
+2. Dispatcher Servlet
+   - 클라이언트의 모든 요청을 한곳으로 받아서 처리
+   - 요청에 맞는 Handler로 요청을 전달
+   - Handler의 실행 결과를 Http Response 형태로 만들어서 반환
+
+3. RestController
+   - @Controller + @ResponseBody
+   - view를 갖지 않는 REST Data(JSON/XML)를 반환
+  
+4. Path Variable
+   
+    <image src ="https://github.com/seoin1223/SpringBoot_RESTful_Api/assets/129828463/b151f156-a5f4-44e4-a717-28b025048905" width = "100%" height="600px"/>
+
