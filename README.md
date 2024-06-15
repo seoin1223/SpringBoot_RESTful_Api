@@ -9,7 +9,7 @@
 6. JAP
 7. RESTful 설계
 
-<br><br><br><br><br>
+<br><br><br>
 
 
 ## 0. Web Service & Web Application
@@ -65,3 +65,8 @@
 3. RestController
    - @Controller + @ResponseBody
    - view를 갖지 않는 REST Data(JSON/XML)를 반환
+  
+4. Path Variable
+   
+    <image src ="https://github.com/seoin1223/SpringBoot_RESTful_Api/assets/129828463/b151f156-a5f4-44e4-a717-28b025048905" width = "100%" height="600px"/>
+
