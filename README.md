@@ -9,6 +9,7 @@
 - Section 5: JAP
 - Section 6: RESTful 설계
 
+<br><br><br><br><br>
 
 
 ## 0. Web Service & Web Application
@@ -41,5 +42,6 @@
      <br>
      <image src ="https://github.com/seoin1223/SpringBoot_RESTful_Api/assets/129828463/115ae7b7-a172-48b4-9cfd-5d95fd1bc379" width = "80%" height="400px"/>
 
+<br><br><br><br>
 
 ## 1. Spring Boot 로 개발하는 RESTful API
