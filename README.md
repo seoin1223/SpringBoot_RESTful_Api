@@ -21,4 +21,8 @@
      - XML RPC
    <image src ="https://github.com/seoin1223/SpringBoot_RESTful_Api/assets/129828463/c86669d1-bc36-403e-8ddc-1684dd05d6a3" width = "50%" height="300px"/>
 
-
+4. REST ( Representational State Transfer)
+   - resource의 Representation에 의한 상태 전달
+   - HTTP Method를 통해 Resource를 처리하기 위한 아키텍처
+5. RESTful : REST API를 제공하는 웹 서비스
+6. 
