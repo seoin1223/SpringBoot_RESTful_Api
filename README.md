@@ -77,4 +77,5 @@
 2. GET
 3. POST
 4. Exception Handling
+   - ServletUriComponentsBuild -> URI 생성 -> ResponseEntity 반환
 5. DELETE

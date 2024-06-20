@@ -3,8 +3,11 @@ package kr.seoin.springboot.myrestfulservice.controller;
 
 import kr.seoin.springboot.myrestfulservice.dao.User;
 import kr.seoin.springboot.myrestfulservice.service.UserDaoService;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import java.net.URI;
 import java.util.List;
 
 @RestController
@@ -27,7 +30,13 @@ public class UserController {
     }
 
     @PostMapping("/users")
-    public User createUser(@RequestBody User user){
-        return service.save(user);
+    public ResponseEntity<User> createUser(@RequestBody User user){
+        User saveUser =  service.save(user);
+
+        URI location = ServletUriComponentsBuilder.fromCurrentRequest()
+                .path("/{id}")
+                .buildAndExpand(saveUser.getId())
+                .toUri();
+        return ResponseEntity.created(location).build();
     }
 }
