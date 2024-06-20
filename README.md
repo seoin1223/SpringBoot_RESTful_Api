@@ -3,7 +3,7 @@
 ## 목차
 1. Web Service & Web Application
 2. Spring Boot 로 개발하는 RESTful API
-3. User SErvice API 추가
+3. User Service API 추가
 4. RESTful Service 기능 확장
 5. Spring Boot API 사용
 6. JAP
@@ -12,7 +12,7 @@
 <br><br><br>
 
 
-## 0. Web Service & Web Application
+## 1. Web Service & Web Application
 1. Web Service:  네트워크 상에서 서로 다른 종류의 컴퓨터들 간에 상호작용하기 위한 소프트웨어 시스템
 2. Web Application : 서버에 저장되어 있고 웹 브라우저를 이용해서 실행할 수 있는 애플리케이션
    
@@ -44,13 +44,13 @@
 
 <br><br><br><br>
 
-## 1. Spring Boot 로 개발하는 RESTful API
+## 2. Spring Boot 로 개발하는 RESTful API
 
 - [프로젝트 생성](https://github.com/seoin1223/SpringBoot_RESTful_Api/tree/seoin/my-restful-service)
 - [controller](https://github.com/seoin1223/SpringBoot_RESTful_Api/tree/seoin/my-restful-service/src/main/java/kr/seoin/springboot/myrestfulservice/controller)
 
   
-1. SPring Boot Configuration
+1. Spring Boot Configuration
     - 동작 원리
     - 설정 파일
        - application.yml : 설정이름:값
@@ -67,6 +67,14 @@
    - view를 갖지 않는 REST Data(JSON/XML)를 반환
   
 4. Path Variable
-   
+
     <image src ="https://github.com/seoin1223/SpringBoot_RESTful_Api/assets/129828463/b151f156-a5f4-44e4-a717-28b025048905" width = "100%" height="600px"/>
 
+<br><br><br>
+
+## 3. User Service APi
+1. User Domain 생성
+2. GET
+3. POST
+4. Exception Handling
+5. DELETE
