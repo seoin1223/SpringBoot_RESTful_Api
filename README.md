@@ -80,3 +80,7 @@
    - ServletUriComponentsBuild -> URI 생성 -> ResponseEntity 반환
    - user id 가 존재하지 않을 때도 200 ok 반환 -> throw new UserNotFoundException
 5. DELETE
+
+
+## 4. RESTful Service 기능 확장
+1. Validations API
