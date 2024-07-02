@@ -84,3 +84,5 @@
 
 ## 4. RESTful Service 기능 확장
 1. Validations API
+2. Internaionalization - 다국어 처리
+  ![img.png](img.png)
