@@ -97,8 +97,8 @@
    ```
 
 4. Response 데이터 제어를 위한 Filtering
-- @JsonIgnore
-- @JsonIgnoreProperties(Value= {})
+   - @JsonIgnore
+   - @JsonIgnoreProperties(Value= {})
 
 5. 프로그래밍으로 제어하는 Filtering
    - 개별 사용자 조회
@@ -106,6 +106,15 @@
    - 전체 사용자 조회
    ![img_2.png](img_2.png)
 
-
-
+6. Version 관리 
+   - URI를 이용한 버전관리
+      ![img_3.png](img_3.png)
+   - Parameter 이용한 버전관리
+      ![img_4.png](img_4.png)
+   - Header를 이용한 버전관리
+      ![img_5.png](img_5.png)
+   - min-type
+      ![img_6.png](img_6.png)
+   - summary
+      ![img_7.png](img_7.png)
 
