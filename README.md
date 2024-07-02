@@ -67,12 +67,11 @@
    - view를 갖지 않는 REST Data(JSON/XML)를 반환
   
 4. Path Variable
-
     <image src ="https://github.com/seoin1223/SpringBoot_RESTful_Api/assets/129828463/b151f156-a5f4-44e4-a717-28b025048905" width = "100%" height="600px"/>
 
 <br><br><br>
 
-## 3. User Service APi
+## 3. User Service API 구현
 1. User Domain 생성
 2. GET
 3. POST
@@ -83,8 +82,30 @@
 
 
 ## 4. RESTful Service 기능 확장
-1. Validations API
+1. [Validations API](https://github.com/seoin1223/SpringBoot_RESTful_Api/tree/seoin/my-restful-service/src/main/java/kr/seoin/springboot/myrestfulservice/dao/User.java) 
 2. Internaionalization - 다국어 처리
   ![img.png](img.png)
 
-## 5. Response 데이터 형식 변환 - XML format
+3. Response 데이터 형식 변환 - XML formatasd
+   ```properties
+   <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml -->
+           <dependency>
+               <groupId>com.fasterxml.jackson.dataformat</groupId>
+               <artifactId>jackson-dataformat-xml</artifactId>
+               <version>2.16.1</version>
+           </dependency>
+   ```
+
+4. Response 데이터 제어를 위한 Filtering
+- @JsonIgnore
+- @JsonIgnoreProperties(Value= {})
+
+5. 프로그래밍으로 제어하는 Filtering
+   - 개별 사용자 조회
+   ![img_1.png](img_1.png)
+   - 전체 사용자 조회
+   ![img_2.png](img_2.png)
+
+
+
+
