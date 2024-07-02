@@ -86,3 +86,5 @@
 1. Validations API
 2. Internaionalization - 다국어 처리
   ![img.png](img.png)
+
+## 5. Response 데이터 형식 변환 - XML format
