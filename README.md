@@ -118,3 +118,8 @@
    - summary
       ![img_7.png](img_7.png)
 
+
+## <span style="color:red" > 5. Spring Boot API 사용</span>
+
+1. HATAOAS
+   ![img_8.png](img_8.png)
