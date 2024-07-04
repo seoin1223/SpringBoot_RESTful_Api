@@ -123,3 +123,8 @@
 
 1. HATAOAS
    ![img_8.png](img_8.png)
+2. Swagger 
+   - SpringFox - 2.7.x
+     ![img_9.png](img_9.png)
+   - SpringDog - 3.1.x
+      ![img_10.png](img_10.png)
