@@ -122,9 +122,16 @@
 ## <span style="color:red" > 5. Spring Boot API 사용</span>
 
 1. HATAOAS
-   ![img_8.png](img_8.png)
+   ![img_8.png](img_8.png) <br><br>
+
 2. Swagger 
    - SpringFox - 2.7.x
      ![img_9.png](img_9.png)
    - SpringDog - 3.1.x
-      ![img_10.png](img_10.png)
+      ![img_10.png](img_10.png) <br><br>
+
+3. Actuator 이용한 모니터링 & Metrics 수집
+   ![img_11.png](img_11.png) <br><br>
+
+4. HAL Explorer 이용한 API 테스
+   ![img_12.png](img_12.png)
