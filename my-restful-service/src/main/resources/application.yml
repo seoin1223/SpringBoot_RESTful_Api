@@ -4,6 +4,13 @@ spring:
   messages:
     basename: messages
 
+  security:
+    user:
+      name: seoin
+      password: 123qwe
+      roles: ADMIN
+
+
 server:
   port: 8088
 
@@ -17,3 +24,5 @@ management:
     web:
       exposure:
         include: "*"
+
+

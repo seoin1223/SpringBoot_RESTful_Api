@@ -138,4 +138,9 @@
 5. SpringSecurity
    ![img_13.png](img_13.png)
 
-6. 
+## 6. Java Persistence API
+1. JPA 개요
+2. Entity 설정
+3. H2 Console 사용을 위한 SecurityConfig 파일 수정
+4. JPA SErvice를 위한 CRUD method 추가
+5. Post Entity 추가와 User Entity와의 관계 설정
