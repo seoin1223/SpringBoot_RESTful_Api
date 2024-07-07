@@ -24,8 +24,6 @@ public class UserDaoService {
     }
 
     public List<User> findAll(){
-
-
         return users;
     }
 
