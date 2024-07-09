@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Restful.iml" filepath="$PROJECT_DIR$/.idea/Restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-restful-service/my-restful-service.iml" filepath="$PROJECT_DIR$/my-restful-service/my-restful-service.iml" />
     </modules>
   </component>
 </project>
