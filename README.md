@@ -145,5 +145,8 @@
    ![img_15.png](img_15.png)
    ![img_16.png](img_16.png)
 3. H2 Console 사용을 위한 SecurityConfig 파일 수정
-4. JPA SErvice를 위한 CRUD method 추가
+   ![img_17.png](img_17.png)
+4. JPA Service를 위한 CRUD method 추가
+   ![img_18.png](img_18.png)
+   
 5. Post Entity 추가와 User Entity와의 관계 설정
