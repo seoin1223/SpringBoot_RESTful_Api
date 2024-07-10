@@ -20,11 +20,11 @@ spring:
       settings:
         web-allow-others: true
 
-#  security:
-#    user:
-#      name: seoin
-#      password: 123qwe
-#      roles: ADMIN
+  security:
+    user:
+      name: seoin
+      password: 123qwe
+      roles: ADMIN
 
 
 server:
