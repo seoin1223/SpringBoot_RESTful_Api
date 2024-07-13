@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 
 
 import java.util.Date;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -43,4 +44,16 @@ public class User {
 //    @JsonIgnore
     @Schema(title = "사용자 주민번호", description = "사용자 주민번호입니다")
     private String ssn;
+
+    @OneToMany(mappedBy = "user")
+    private List<Post> posts;
+
+
+    public User(Integer id, String name, Date joinDate, String password, String ssn) {
+        this.id = id;
+        this.name = name;
+        this.joinDate = joinDate;
+        this.password = password;
+        this.ssn = ssn;
+    }
 }

@@ -2,9 +2,9 @@ package kr.seoin.springboot.myrestfulservice.controller;
 
 
 import kr.seoin.springboot.myrestfulservice.dao.User;
+import kr.seoin.springboot.myrestfulservice.dao.UserNum;
 import kr.seoin.springboot.myrestfulservice.exception.UserNotFoundException;
 import kr.seoin.springboot.myrestfulservice.repository.UserRepository;
-import org.hibernate.validator.constraints.URL;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.http.ResponseEntity;
@@ -33,6 +33,31 @@ public class UserJpaController {
     @GetMapping("/users")
     public List<User> retrieveAllUsers() {
         return userRepository.findAll();
+    }
+    @GetMapping("/users/all")
+    public UserNum retrieveAllUsersNum() {
+        List<User> users = userRepository.findAll();
+        int count = users.size();
+        return new UserNum(count,users);
+    }
+
+    @GetMapping("/user")
+//    public List<User> retrieveAllUsers() {
+//        return userRepository.findAll();
+//    }
+    public ResponseEntity retrieveAllUsers1() {
+        List<User> users = userRepository.findAll();
+
+        UserNum response = UserNum.builder()
+                .count(users == null || users.isEmpty() ? 0 : users.size())
+                .user(users)
+                .build();
+
+        EntityModel<UserNum> entityModel = EntityModel.of(response);
+        WebMvcLinkBuilder linkTo = linkTo(methodOn(this.getClass()).retrieveAllUsers());
+        entityModel.add(linkTo.withSelfRel());
+
+        return ResponseEntity.ok(entityModel);
     }
 
     @GetMapping("/users/{id}")

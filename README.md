@@ -150,3 +150,4 @@
    ![img_18.png](img_18.png)
    
 5. Post Entity 추가와 User Entity와의 관계 설정
+   ![img_19.png](img_19.png)
