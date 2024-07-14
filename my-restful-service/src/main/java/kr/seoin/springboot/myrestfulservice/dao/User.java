@@ -9,10 +9,13 @@ import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.Cascade;
 
 
 import java.util.Date;
 import java.util.List;
+
+import static jakarta.persistence.CascadeType.*;
 
 @Data
 @AllArgsConstructor
@@ -21,6 +24,7 @@ import java.util.List;
 @Schema(description = "사용자 상세 정보를 위한 도메인 객체")
 @Entity
 @Table(name = "users")
+
 public class User {
 
     @Id
@@ -45,7 +49,7 @@ public class User {
     @Schema(title = "사용자 주민번호", description = "사용자 주민번호입니다")
     private String ssn;
 
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "user", cascade = REMOVE)
     private List<Post> posts;
 
 

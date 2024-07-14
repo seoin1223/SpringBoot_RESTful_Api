@@ -151,3 +151,7 @@
    
 5. Post Entity 추가와 User Entity와의 관계 설정
    ![img_19.png](img_19.png)
+
+6. 게시글 조회를 위한 Post Entity의 User Entity와의 관계 설정
+   ![img_20.png](img_20.png)
+7. JPA를 이용한 새 게시물 추가 
